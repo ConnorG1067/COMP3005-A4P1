@@ -26,3 +26,5 @@ Brief Explanation
 3. addStudent(first_name, last_name, email, enrollment_date, connection) - adds a student to the table with the corresponding values
 4. updateStudentEmail(student_id, new_email, connection) - updates a students email with the corresponding values
 5. deleteStudent(student_id, connection) - delete the student at the student id
+
+Video: https://youtu.be/xdlEFcFh6tE
