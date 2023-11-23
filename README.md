@@ -2,13 +2,13 @@
 1. Create a new database on the localhost port 5432
 2. Change the dbname in the code to your database name, as well as the user name and password
 3. Run the sql command below to create the table
-   `CREATE TABLE students (
+   ```CREATE TABLE students (
         student_id SERIAL PRIMARY KEY,
         first_name varchar(255) NOT NULL,
         last_name varchar(255) NOT NULL,
         email varchar(255) NOT NULL UNIQUE,
         enrollment_date DATE
-    );`
+    );
 4. Insert the following students into the database
    1. INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
     ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
