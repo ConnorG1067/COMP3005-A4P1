@@ -1,4 +1,4 @@
-Database Instructions
+# Database Instructions
 1. Create a new database on the localhost port 5432
 2. Change the dbname in the code to your database name, as well as the user name and password
 3. Run the sql command below to create the table
