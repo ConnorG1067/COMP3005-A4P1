@@ -13,12 +13,14 @@ https://youtu.be/xdlEFcFh6tE
         email varchar(255) NOT NULL UNIQUE,
         enrollment_date DATE
     );
+   ```
 4. Insert the following students into the database
    ```
    INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
     ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
     ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
     ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+   ```
 
 ### Compile and Run Application
 1. Download all dependencies
