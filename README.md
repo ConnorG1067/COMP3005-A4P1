@@ -2,7 +2,8 @@
 1. Create a new database on the localhost port 5432
 2. Change the dbname in the code to your database name, as well as the user name and password
 3. Run the sql command below to create the table
-   ```CREATE TABLE students (
+   ```
+      CREATE TABLE students (
         student_id SERIAL PRIMARY KEY,
         first_name varchar(255) NOT NULL,
         last_name varchar(255) NOT NULL,
