@@ -31,12 +31,16 @@ https://youtu.be/xdlEFcFh6tE
 
 `def main()` 
 Handles all the user inputs and the operations for preforming certain tasks
+
 `getAllStudents(connection)` 
 Returns a list of tuples of each student
+
 `addStudent(first_name, last_name, email, enrollment_date, connection)`
 adds a student to the table with the corresponding values
+
 `updateStudentEmail(student_id, new_email, connection)`
 updates a students email with the corresponding values
+
 `deleteStudent(student_id, connection)`
 delete the student at the student id
 
