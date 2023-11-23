@@ -1,3 +1,6 @@
+### Video
+https://youtu.be/xdlEFcFh6tE
+
 ### Database Instructions
 1. Create a new database on the localhost port 5432
 2. Change the dbname in the code to your database name, as well as the user name and password
@@ -29,4 +32,4 @@
 4. updateStudentEmail(student_id, new_email, connection) - updates a students email with the corresponding values
 5. deleteStudent(student_id, connection) - delete the student at the student id
 
-Video: https://youtu.be/xdlEFcFh6tE
+
